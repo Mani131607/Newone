@@ -1,0 +1,27 @@
+
+.image {
+    background-color: transparent;
+    background-image: url(https://kahedu.edu.in/n/wp-content/uploads/2021/05/Impact-Of-Reading-Books-On-Your-Mental-Health-990x500.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: white; 
+
+   
+    @media (max-width: 768px) {
+        height: 150px; 
+        margin-top: 20px; 
+    }
+}
+
+.h1centre {
+    margin-left: 60px; 
+
+   
+    @media (max-width: 768px) {
+        margin-left: 30px; 
+    }
+}

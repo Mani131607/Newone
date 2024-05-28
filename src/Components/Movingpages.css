@@ -1,0 +1,31 @@
+.marquee-container {
+    margin-top: 50px;
+    width: 100%;
+    overflow: hidden; 
+  }
+  .manikanta{
+    text-align: center;
+    
+  }
+  .marquee {
+    display: flex;
+    animation: marqueeAnimation 10s linear infinite; 
+ 
+  }
+  
+  .marquee-image {
+    flex-shrink: 0; 
+    width: 150px;
+    height: 100px;
+    margin-right: 40px; 
+  }
+  
+  @keyframes marqueeAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%); /* Move images to the left */
+    }
+  }
+  

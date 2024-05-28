@@ -1,0 +1,22 @@
+.footer11 {
+    background-color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color: aliceblue;
+    text-align: center;
+}
+
+.kanta {
+    margin-left: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .footer11 {
+        padding: 10px 20px; 
+    }
+
+    .kanta {
+        margin-left:100px;
+    }
+}

@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  
+  .box {
+    flex: 0 1 calc(20% - 10px); 
+    height: 200px; 
+    margin: 0 5px 20px 0;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-left: 50px;
+  }
+  
+  .box-heading {
+    margin-left: 30px;
+    color: rgb(11, 15, 12);
+  }
+  
+  
+  .box1 {
+    background-image: url('https://wiculty.com/wp-content/uploads/2023/08/Devops.jpg');
+  }
+  
+  .box2 {
+    background-image: url('https://wiculty.com/wp-content/uploads/2023/08/cloud-category-image.jpg');
+  }
+  
+  .box3 {
+    background-image: url('https://wiculty.com/wp-content/uploads/2023/08/Azure-Devops.png');
+  }
+  
+  .box4 {
+    background-image: url('https://wiculty.com/wp-content/uploads/2023/08/AWS-devops.jpg');
+  }
+  
+  .box5 {
+    background-image: url('https://wiculty.com/wp-content/uploads/2024/02/How-to-Learn-Digital-Marketing.jpg.optimal.jpg');
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .box {
+      flex-basis: calc(50% - 10px); 
+    }
+  }
+  
